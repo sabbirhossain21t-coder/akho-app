@@ -1,0 +1,14 @@
+name: akho
+description: AI Eye Doctor in Bangla
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4
+  tflite_flutter: ^0.9.0
+  flutter_tts: ^3.3.3
+
+assets:
+  - assets/models/dr_model.tflite
+  - assets/labels.txt
+  - assets/sounds/dr_detected.mp3
